@@ -1,0 +1,34 @@
+.container {
+	background-color: steelblue;
+	min-height: 100vh;
+}
+
+.navbar {
+	background: rgba( 255, 255, 255, 0.45 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 3px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+div ul li {
+	padding-right: 20px;
+	font-weight: 600;
+	font-size: 18px;
+}
+div .card {
+	font-weight: bold;
+	font-size: 13px;
+	background: rgba(255, 255, 255, 0.90);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+div .card .card-title {
+	font-weight: bold;
+	font-size: 13px;
+}

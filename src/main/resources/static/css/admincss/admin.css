@@ -1,0 +1,79 @@
+.p-2 {
+	background: rgba(45, 39, 39, 0.3);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.container {
+	background-color: steelblue;
+	min-height: 100vh;
+}
+
+.form-group label {
+	color: white;
+}
+
+
+
+.navbar {
+	background: rgba(255, 255, 255, 0.45);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	border-radius: 3px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#drop-down {
+	position: static;
+}
+
+#drop-down1 {
+	position: static;
+}
+
+div .row .col-12 {
+	background: rgba(45, 39, 39, 0.3);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	border-radius: 5px;
+	
+}
+
+.nav-tabs {
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	border-radius: 2px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.nav-tabs a {
+	width: 50%;
+	text-align: center;
+}
+
+div ul li {
+	padding-right: 20px;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.table-wrapper {
+	background: rgba(255, 255, 255, 0.90);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(3.0px);
+	-webkit-backdrop-filter: blur(3.0px);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	padding: 10px;
+	max-width: 100%;
+	font-weight: 500;
+	margin: 20px;
+	overflow: auto;
+	border-radius: 5px;
+}

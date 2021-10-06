@@ -1,0 +1,53 @@
+div ul li {
+	padding-right: 20px;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.row form {
+	background: rgba(45, 39, 39, 0.30);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	padding: 20px;
+}
+
+.container {
+	background-color: steelblue;
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+}
+
+.navbar {
+	background: rgba(255, 255, 255, 0.45);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	border-radius: 3px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#PassengerDiv .card {
+	background: rgba(252, 230, 245, 0.753);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	font-weight: 500;
+}
+
+#PassengerDiv {
+	height: 87vh;
+	overflow: auto;
+}
+div .dropdown-menu 
+{
+position:static;
+}
+form .form-group {
+	color: white;
+}

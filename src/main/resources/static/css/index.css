@@ -1,0 +1,85 @@
+.carousel-inner .carousel-item  img {
+	height: 560px;
+	object-fit: cover;
+	border-radius: 20px;
+}
+
+.nav-tabs {
+	display: flex;
+	justify-content: center;
+	background: rgba(45, 39, 39, 0.30);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.container {
+	background-color: steelblue;
+	min-height: 100vh;
+}
+
+.avatar {
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+	margin: 0 auto;
+}
+
+div form {
+	padding: 20px 40px;
+}
+
+.avatar__image {
+	border-radius: 50%; Take full size height : 100%;
+	width: 100%;
+}
+
+form {
+	background: rgba(45, 39, 39, 0.30);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	min-height: 520px;
+	color: white;
+	box-sizing: border-box;
+}
+
+.form-group {
+	font-size: 14px;
+}
+
+.form-group.success input {
+	border-color: #2ecc71;
+}
+
+.form-group.error input {
+	border-color: #e74c3c;
+}
+
+.form-group.success i.fa-check-circle {
+	visibility: visible;
+	color: #2ecc71;
+}
+
+.form-group.error i.fa-exclamation-circle {
+	visibility: visible;
+	color: #e74c3c;
+}
+
+.form-group small {
+	background-color:white;
+	visibility: hidden;
+	position: absolute;
+	bottom: 3;
+	left: 3;
+	border-radius:5px;
+}
+
+.form-group.error small {
+	visibility: visible;
+	color: #e74c3c;
+}
